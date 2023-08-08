@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "!connections")(type "KiCad")(uri "/home/chledora2/Dokumenty/Projekty/preamp-J201/PCB/lib/!connections.pretty")(options "")(descr ""))
+)
