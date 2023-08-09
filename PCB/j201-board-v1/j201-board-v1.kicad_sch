@@ -410,10 +410,19 @@
     (uuid a456a806-ca66-446f-a447-59c16a9d1174)
   )
 
+  (label "GND" (at 90.17 120.65 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 204084d1-651f-4aba-8ad3-04a92c9c40ab)
+  )
+  (label "V+" (at 90.17 76.2 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 2b0452c3-6acd-43f8-847b-372b1ee404ec)
+  )
+
   (symbol (lib_id "Device:R") (at 114.3 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 183667a2-0e4a-45b8-b777-e6c4079f8e36)
-    (property "Reference" "R2" (at 116.84 111.76 0)
+    (property "Reference" "R1" (at 116.84 111.76 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "3M" (at 116.84 114.3 0)
@@ -430,7 +439,7 @@
     (instances
       (project "j201-board-v1"
         (path "/3930539a-52c2-4eed-bf6b-0f3397b69da0"
-          (reference "R2") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -475,7 +484,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 72.39 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 282e6822-2d8c-45cf-8c74-61627feb3d3b)
-    (property "Reference" "J2" (at 73.025 71.12 0)
+    (property "Reference" "J1" (at 73.025 71.12 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "power (3V) [9V]" (at 73.025 73.66 0)
@@ -492,7 +501,7 @@
     (instances
       (project "j201-board-v1"
         (path "/3930539a-52c2-4eed-bf6b-0f3397b69da0"
-          (reference "J2") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -605,7 +614,7 @@
   (symbol (lib_id "Device:R") (at 125.73 83.82 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ca694f73-5a7e-4b14-b2c3-a87916095076)
-    (property "Reference" "R1" (at 123.19 82.55 0)
+    (property "Reference" "R2" (at 123.19 82.55 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2K2 [6K8]" (at 123.19 85.09 0)
@@ -617,12 +626,12 @@
     (property "Datasheet" "~" (at 125.73 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 228bec78-c287-4dbb-be7d-10aae9e07793))
-    (pin "2" (uuid 72db693f-dfca-44e5-bb47-63dba25f8a5d))
+    (pin "1" (uuid c286c9fe-ed72-4c49-854b-abd9e82facfd))
+    (pin "2" (uuid 9615e3de-1626-463e-9a50-1b600d6837a6))
     (instances
       (project "j201-board-v1"
         (path "/3930539a-52c2-4eed-bf6b-0f3397b69da0"
-          (reference "R1") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -631,7 +640,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 99.06 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d585b204-4117-48d2-a741-a30633971b76)
-    (property "Reference" "J1" (at 99.695 95.25 0)
+    (property "Reference" "J2" (at 99.695 95.25 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "input (piezo)" (at 99.695 97.79 0)
@@ -648,7 +657,7 @@
     (instances
       (project "j201-board-v1"
         (path "/3930539a-52c2-4eed-bf6b-0f3397b69da0"
-          (reference "J1") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
